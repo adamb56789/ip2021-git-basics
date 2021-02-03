@@ -3,10 +3,10 @@ public class Contains {
     public static int main(String[] args) {
         int[] num = new int[]{1, 2, 3, 4, 5};
         int toFind = 3;
-        boolean found = true;
+        boolean found = false;
  
-        for (n : num) {
-            if (n = toFind) {
+        for (int n : num) {
+            if (n == toFind) {
                 found = true;
                 break;
             }
@@ -18,3 +18,5 @@ public class Contains {
             print(toFind + " is not found.");
     }
 }
+
+//Mrinmoy Sonowal
