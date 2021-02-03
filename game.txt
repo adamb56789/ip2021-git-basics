@@ -1,14 +1,14 @@
 public class Contains {
  
     public static int main(String[] args) {
-        int[] num = (1, 2, 3, 4, 5);
+        int[] num = new int[]{1, 2, 3, 4, 5};
         int toFind = 3;
         boolean found = true;
  
         for (n : num) {
             if (n = toFind) {
                 found = true;
-                break
+                break;
             }
         }
  
